@@ -6,3 +6,4 @@ This repository has two branchs, one is master, and the other is switch_block_ve
     However, there is one issue for using "R" in switch code block due to this version of Android Studio. And its solution is to add
     one line of code "android.nonFinalResIds=false" in "gradle.properties", REMEMBER, don't forget to click the gradle turtle on your left up corner screens "sync project with gradles file"
     Then the issue should be gone.
+  orignial solution URL: "https://stackoverflow.com/questions/76430646/constant-expression-required-when-trying-to-create-a-switch-case-block"
