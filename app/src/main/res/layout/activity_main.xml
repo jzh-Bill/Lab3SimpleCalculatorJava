@@ -31,7 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btn07Click"
+                android:onClick="onClickNumericalButton"
                 android:text="@string/button_07" />
 
             <Button
@@ -39,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btn08Click"
+                android:onClick="onClickNumericalButton"
                 android:text="@string/button_08" />
 
             <Button
@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btn09Click"
+                android:onClick="onClickNumericalButton"
                 android:text="@string/button_09"
                 android:textAlignment="center" />
 
@@ -56,7 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btnDivideClick"
+                android:onClick="onClickFunctionButton"
                 android:text="@string/button_div" />
         </LinearLayout>
 
@@ -72,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btn04Click"
+                android:onClick="onClickNumericalButton"
                 android:text="@string/button_04" />
 
             <Button
@@ -80,7 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btn05Click"
+                android:onClick="onClickNumericalButton"
                 android:text="@string/button_05" />
 
             <Button
@@ -88,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btn06Click"
+                android:onClick="onClickNumericalButton"
                 android:text="@string/button_06" />
 
             <Button
@@ -96,7 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btnMultiplyClick"
+                android:onClick="onClickFunctionButton"
                 android:text="@string/button_mul"
                 android:textColorLink="#D76666" />
         </LinearLayout>
@@ -113,7 +113,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btn01Click"
+                android:onClick="onClickNumericalButton"
                 android:text="@string/button_01" />
 
             <Button
@@ -121,7 +121,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btn02Click"
+                android:onClick="onClickNumericalButton"
                 android:text="@string/button_02" />
 
             <Button
@@ -129,7 +129,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btn03Click"
+                android:onClick="onClickNumericalButton"
                 android:text="@string/button_03" />
 
             <Button
@@ -137,7 +137,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btnAddClick"
+                android:onClick="onClickFunctionButton"
                 android:text="@string/button_add" />
         </LinearLayout>
 
@@ -153,7 +153,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btnClearClick"
+                android:onClick="onClickFunctionButton"
                 android:text="@string/button_ce" />
 
             <Button
@@ -161,7 +161,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btn00Click"
+                android:onClick="onClickFunctionButton"
                 android:text="@string/button_00" />
 
             <Button
@@ -169,7 +169,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btnDotClick"
+                android:onClick="onClickFunctionButton"
                 android:text="@string/button_dot" />
 
             <Button
@@ -177,7 +177,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="btnMinusClick"
+                android:onClick="onClickFunctionButton"
                 android:text="@string/button_sub" />
         </LinearLayout>
 
@@ -186,7 +186,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:onClick="btnResultClick"
+            android:onClick="onClickFunctionButton"
             android:text="@string/button_eq" />
 
     </LinearLayout>
